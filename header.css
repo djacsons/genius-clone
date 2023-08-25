@@ -1,0 +1,75 @@
+header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 5rem;
+    row-gap: 5px;
+}
+header div{
+}
+.head_top{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 100);
+}
+.head_top div{
+    width: 10%;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 1.5rem;
+    width: 20rem;
+    border: none;
+    margin-left: 10px;
+}
+.search svg{
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    color: black;
+    margin-left: 10.5rem;
+}
+.head_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+.head_bottom div{
+    padding: 0 20px;
+}
+.links{
+    border-right: 2px solid white;
+    cursor: pointer;
+}
+.cursor{
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 2.5rem;
+    padding: 0;
+}
+.signUpIn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.signUpIn div{
+    width: 35%;
+}
+.social_links{
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+}

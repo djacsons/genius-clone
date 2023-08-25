@@ -1,0 +1,99 @@
+.charts_main_container{
+    display: flex;
+    justify-content: center;
+}
+.charts_main{
+    width: 50%;
+    display: grid;
+    grid-template-rows: .1fr 1.3fr .1fr;
+    row-gap: 2px;
+    margin-top: 5rem;
+}
+/* .charts_main div{
+    background-color: bisque;
+} */
+.charts_head{
+    font-size: 45px;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.charts_head h2{
+    margin-top: -5px;
+}
+.charts_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.charts_button button{
+    width: 9rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+.charts_body{
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    margin-top: 10px;
+}
+.charts_body div{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+}
+.charts_body_child{
+    display: grid;
+    grid-template-columns: .1fr .7fr .4fr .2fr;
+    column-gap: 3px;
+    transition-property: background-color;
+    transition-duration: .2s;
+}
+.charts_body_child div{
+    display: flex;
+    align-items: center;
+}
+.chart_name{
+    font-size: 25px;
+}
+.eye_image{
+    background-image: url(images/eye-regular.svg);
+    width: 1rem;
+    height: 1rem;
+    margin-right: 8px;
+}
+.chart_views{
+    display: flex;
+}
+.chart_views p{
+    margin: 0;
+}
+.chart_image_and_song{
+    display: flex;
+    justify-content: flex-start;
+}
+.chart_image_and_song > *{
+    padding-right: 10px;
+}
+.chart_image_and_song img{
+    width: 4rem;
+    height: 85%
+}
+.chart_lyrics{
+    font-size: 12px;
+    color: gray;
+}
+.charts_body_child:hover{
+    background-color: rgba(175, 168, 168, 0.26);
+    cursor: pointer;
+}
+.chart_song_name, .chart_num{
+    font-size: 23px;
+    font-weight: 500;
+}
+#charts_dropdown{
+    height: 60%;
+    width: 17rem;
+    border: 2px solid black;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}

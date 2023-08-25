@@ -1,0 +1,92 @@
+.news_main_container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.news_main{
+    margin-top: 4rem;
+    width: 50%;
+    height: 45rem;
+    display: grid;
+    grid-template-rows: .45fr .55fr;
+    row-gap: 20px;
+}
+.news_main img{
+    width: 80%;
+}
+.news_main h2{
+    font-size: 30px;
+}
+.news_main aside{
+    font-size: 12px;
+}
+.news_top{
+    display: grid;
+    grid-template-columns: .45fr .6fr;
+    column-gap: 35px;
+}
+.current{
+    background-color: bisque;
+}
+/* .news_top div{
+} */
+.news_top_right{
+    background-image: url("https://images.genius.com/2fd8e54fd4d0f9ca1f4eacb1b23adbfc.1000x1000x1.png");
+    background-position:center center;
+    background-size:contain;
+}
+.news_bottom{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+}
+.news_bottom div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.news_top_left{
+    border-top: 3px solid black;
+}
+.news_float{
+    position: absolute;
+    background-color: white;
+    margin-top: -8px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.news_border{
+    border-right: 3px solid black;
+}
+.news_bottom_parts{
+    height: 45%;
+}
+.news_bottom_image1{
+    background-image: url("https://images.genius.com/0aed63349f7feda5ce6eba0f38cc3e3b.1000x1000x1.jpg");
+}
+.news_bottom_image2{
+    background-image: url("https://images.genius.com/bbc1aefe9169f3b8b8d988b2750624e4.1000x1000x1.png");
+}
+.news_bottom_image3{
+    background-image: url("https://images.genius.com/1e7e860f32d03aab04024c935bd7a376.1000x1000x1.png");
+}
+.news_bottom_images{
+    background-position: center center;
+    background-size:contain;
+    height: 100%;
+    width: 140%;
+}
+.news_bottom_top p{
+    font-size: 11px;
+}
+.news_bottom_top h3{
+    margin-top: -2px;
+    font-size: 20px;
+    width: 90%;
+}
+
+.news_top_left h2:hover, .news_bottom_top h3:hover, .news_bottom_parts:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
